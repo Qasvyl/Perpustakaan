@@ -1,0 +1,103 @@
+body {
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-style: normal;
+    color: rgb(22, 64, 179);
+    background-image: url(image/perpus2.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.side{
+    height: 380px;
+    width: 250px;
+    float: left;
+    color: #ffffff;
+    background-color: #282bbd;
+    margin-top: -30px;
+    padding-top: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px #3b3b3b;
+}
+
+.side img {
+    width: 180px !important;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+
+.right{
+    float: right;
+}
+
+.form {
+    height: 380px;
+    width: 600px;
+    margin: 30vh auto;
+    padding:20px;
+    background: #ffffff;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.form img {
+    width: 65px;
+    float: left;
+    margin-top: 8px;
+}
+
+.form h1 {
+    text-align: center;
+    padding: 5px;
+    margin-right: 55px;
+}
+
+.form .button {
+    padding: 15px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #282bbd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #3b3b3b;
+    transition: background-color 0.5s ease;
+    transition: box-shadow 0.3s ease;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
+
+.form .button:hover {
+    background-color: #1a98ff;
+     transform: scale(0.98);
+}
+
+.input-control {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-control input {
+    width: 100%;
+    padding: 15px;
+    font-size: 12px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-right: 80px;
+    background-color: #e9e9e9;
+    color: rgb(44, 41, 41); 
+    transition: 0.3s ease;
+}
+
+.input-control input:hover{
+    transform: scale(1.03);
+}

@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    background: #020024;
+    background: linear-gradient(260deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgb(163, 163, 163);
+}
+.navbar ul{
+    padding-inline: 4rem;
+    gap: 4rem;
+    display: flex;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+    color: rgb(36, 32, 41);
+}
+
+.navbar a{
+    text-decoration: none;  
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.card-small {
+  transform: scale(0.9);
+}
+
